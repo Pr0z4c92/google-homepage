@@ -3,3 +3,7 @@ section .google {
     display: block;
 }
 
+header nav .images {
+    margin: 5px auto;
+    text-align: right;
+}
