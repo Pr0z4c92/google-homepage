@@ -4,21 +4,25 @@ section .google {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0px auto;
-    padding: 0px;
-    text-align: center;
-    height: 100%;
-    overflow: auto;
-}
-
-li {
     display: inline;
 }
 
-li .about {
+#left_menu {
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: auto;
+}
+
+#right_menu {
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: auto;
+}
+
+.about {
     text-decoration: none;
-    text-align: left;
 }
 
 .store {
