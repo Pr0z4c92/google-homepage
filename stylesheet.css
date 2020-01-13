@@ -1,10 +1,10 @@
-section .google {
+section {
     margin: 1px auto;
     display: block;
 }
 
 ul {
-    display: inline;
+    display: inline-block;
 }
 
 #left_menu {
