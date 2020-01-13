@@ -3,8 +3,33 @@ section .google {
     display: block;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+    height: 100%;
+    overflow: auto;
+}
+
+li {
+    display: inline;
+}
+
+li .about {
+    text-decoration: none;
+    text-align: left;
+}
+
+.store {
+    text-decoration: none;
+}
+
+.gmail {
+    text-decoration: none;
+}
+
 .images {
     text-decoration: none;
-    margin: 5px auto;
-    text-align: right;
 }
+
