@@ -1,30 +1,36 @@
 section .google{
     margin: 1px auto;
-    display: block;
+    padding: 0px;
 }
 
 section #search {
     text-align: center;
+    margin: 10px;
+    padding: 0px;
+    background-color: red;
 }
 
 nav {
+    display: grid;
+    grid-template-columns: 50px auto 50px;
     margin: 0px auto;
     padding: 0px;
 }
 
 ul {
-    display: inline;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
 }
 
 #left_menu {
-    list-style-type: none;
     margin: 0px auto;
     padding: 0px;
     overflow: auto;
 }
 
 #right_menu {
-    list-style-type: none;
     margin: 0px auto;
     padding: 0px;
     overflow: auto;
