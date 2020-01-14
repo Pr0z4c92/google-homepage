@@ -1,10 +1,19 @@
-section {
+section .google{
     margin: 1px auto;
     display: block;
 }
 
+section #search {
+    text-align: center;
+}
+
+nav {
+    margin: 0px auto;
+    padding: 0px;
+}
+
 ul {
-    display: inline-block;
+    display: inline;
 }
 
 #left_menu {
@@ -23,17 +32,25 @@ ul {
 
 .about {
     text-decoration: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .store {
     text-decoration: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .gmail {
     text-decoration: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .images {
     text-decoration: none;
+    margin: 0px;
+    padding: 0px;
 }
 
