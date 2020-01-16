@@ -12,20 +12,15 @@ section #search {
 
 /* Ul for user interaction */
 
-nav {
-    margin: 0px auto;
-    padding: 0px;
-}
-
 ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
 }
 
-ul #top_info {
+#top_info {
     display: grid;
-    grid-template-columns: 50px 50px auto 50px 50px;
+    grid-template-columns: 50px 50px 750px 50px 50px;
     grid-template-rows: 50px;
 }
 
@@ -46,7 +41,7 @@ ul #top_info {
 }
 
 .gmail {
-    grid-column-start: 4;
+    grid-column-start: 5;
     grid-row-start: 1;
     text-decoration: none;
     margin: 0px;
