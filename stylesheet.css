@@ -1,62 +1,18 @@
-section .google{
-    margin: 1px auto;
-    padding: 0px;
-}
-
-section #search {
-    text-align: center;
-    margin: 10px;
-    padding: 0px;
-    background-color: red;
-}
-
-/* Ul for user interaction */
+/* flexbox */
 
 ul {
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+    display: flex;
+    margin: 5px auto;
+    padding: 5px;
+    : flex-end;
 }
 
-#top_info {
-    display: grid;
-    grid-template-columns: 50px 50px auto 50px 50px;
-    grid-template-rows: 50px;
-}
-
-.about {
-    grid-column-start: 1;
-    grid-row-start: 1;
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
-}
-
-.store {
-    grid-column-start: 2;
-    grid-row-start: 1;
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
-}
-
-.gmail {
-    grid-column-start: 4;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
+li {
+    margin: 5px px;
+    padding: 5px;
 }
 
 .images {
-    grid-column-start: 5;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
+    align-content: space-around;
 }
-
-/*end*/
-
