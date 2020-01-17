@@ -7,3 +7,5 @@ learning alot. mainly about section. i have been working on this site for roughl
 i have practically started using this as a journal to log everything. serious though,
 
 created by zac hird. started on 11th of january 2020.
+
+got some word that flexbox will work a little bit better then grid so i am switching from css to flexbox.
