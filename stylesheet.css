@@ -1,18 +1,30 @@
+html {
+    -webkit-appearance: none;
+}
+
 /* flexbox */
 
 ul {
+    -webkit-appearance: none;
     list-style-type: none;
-    display: flex;
-    margin: 5px auto;
-    padding: 5px;
-    : flex-end;
+    margin: 5px;
+    padding: 0px;
+    height: 20px;
 }
 
 li {
-    margin: 5px px;
-    padding: 5px;
+    display: inline;
+    margin: 5px;
+    padding: 0px;
 }
 
-.images {
-    align-content: space-around;
+.left {
+    border: 10px;
+    display: flex;
+}
+
+.right {
+    border: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
