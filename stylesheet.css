@@ -3,6 +3,14 @@ html {
 }
 
 /* flexbox */
+ body {
+     -webkit-appearance: none;
+ }
+
+ nav {
+     margin: 10px;
+     padding: 10px;
+ }
 
 ul {
     -webkit-appearance: none;
