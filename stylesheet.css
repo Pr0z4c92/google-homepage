@@ -1,4 +1,8 @@
 
+ul {
+    font-size: 16px;
+    font-style: san_serif, aria;
+}
 
 /* flexbox */
 
@@ -7,6 +11,7 @@
     -webkit-appearance: none;
      margin: 10px;
      padding: 10px;
+     margin-bottom: 250px;
  }
 
 ul {
@@ -50,7 +55,11 @@ section .img {
     justify-content: center;
 }
 
-/* section #search */
+/* section #search #mid-section*/
+
+.mid-section div {
+    margin: auto;
+}
 
 .srch {
     margin: auto;
@@ -62,10 +71,10 @@ section .img {
     justify-content: center;
 }
 
-/* section #update */
+/* div #update */
 
-section #update {
-    margin: auto;
+div #update {
+    margin: auto, 0, auto, 0;
     padding: 5px;
 }
 
@@ -81,8 +90,13 @@ footer {
 }
 
 p {
-    margin-top: 1300;
-    padding-top: 1300;
+    font-size: 16px;
+    margin-top: 300px;
+    padding: 10px;
+    background-color: cadetblue;
+    border-color: rgb(126, 126, 91);
+    border-width: 3px;
+
 }
 
 a {
@@ -97,3 +111,4 @@ a {
 .privacy {
     margin-left: auto;
 }
+
